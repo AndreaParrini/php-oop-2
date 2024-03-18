@@ -1,8 +1,8 @@
 <?php
 require_once __DIR__ . '/db.php';
-require_once __DIR__ . '/app/models/ClassProduct.php';
-require_once __DIR__ . '/app/models/ClassAnimal.php';
-require_once __DIR__ . '/app/models/ClassInfoOfProduct.php';
+require_once __DIR__ . '/app/models/Product.php';
+require_once __DIR__ . '/app/models/Animal.php';
+require_once __DIR__ . '/app/models/InfoOfProduct.php';
 ?>
 
 <?php include __DIR__ . '/app/partials/head.php' ?>

@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . '/app/models/ClassProduct.php';
-require_once __DIR__ . '/app/models/ClassAnimal.php';
-require_once __DIR__ . '/app/models/ClassInfoOfProduct.php';
+require_once __DIR__ . '/app/models/Product.php';
+require_once __DIR__ . '/app/models/Animal.php';
+require_once __DIR__ . '/app/models/InfoOfProduct.php';
 $products = [
     new Product('Shampo per cani', 13.99, 80, 'https://picsum.photos/200', 'Shampo per cani a pelo corto, perfetto per una pulizia e un profumo fuoi dal comune', 'Vitakraft', new Animal('dog', 'all size'), new InfoOfProduct('prodotto', '250ml', 140)),
     new Product('Crocchette di pollo', 8.99, 25, 'https://picsum.photos/200', 'Ottimo pasto per il tuo gatto, in queste crocchette troverai tutti valori nutrizionali utili al tuo gatto.', 'Felix', new Animal('cat', 'all size'), new InfoOfProduct('cibo', '20x30x10', 250)),

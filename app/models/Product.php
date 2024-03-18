@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/ClassAnimal.php';
-require_once __DIR__ . '/ClassInfoOfProduct.php';
+require_once __DIR__ . '/Animal.php';
+require_once __DIR__ . '/InfoOfProduct.php';
 class Product
 {
     public $name;
